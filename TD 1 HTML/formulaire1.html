@@ -1,0 +1,127 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            <p>Civilité:</p>
+            <!-- 1er formulaire Civilité -->
+            <div>
+                <input type="radio" id="Civilite1"
+                name="Civilite" value = "Mr">
+                <label for="Civilite1">Mr</label>
+            <!-- 2e formulaire Civilité -->
+                <input type="radio" id="Civilite2"
+                name="Civilite" value = "Mme ou Mlle">
+                <label for="Civilite2">Mme ou Mlle</label>
+            </div>
+        <p>Nom:</p>
+        <!-- Formulaire Nom-->
+            <label for="Nom"></label>
+            <input type="text" id="Nom" name="Nom" required>
+        <!--Formulaire age-->
+        <div>
+            <p>date de naissance:</p>
+            <!--Jour-->
+            <label for="jour"> </label>
+            <select name="jour" id="jour">
+                <option value=""> jour </option>
+                <option value="01"> 01 </option>
+                <option value="02"> 02 </option>
+                <option value="03"> 03 </option>
+                <option value="04"> 04 </option>
+                <option value="05"> 05 </option>
+                <option value="06"> 06 </option>
+                <option value="07"> 07 </option>
+                <option value="08"> 08 </option>
+                <option value="09"> 09 </option>
+                <!--10-->
+                <option value="10"> 10 </option>
+                <option value="11"> 11 </option>
+                <option value="12"> 12 </option>
+                <option value="13"> 13 </option>
+                <option value="14"> 14 </option>
+                <option value="15"> 15 </option>
+                <option value="16"> 16 </option>
+                <option value="17"> 17 </option>
+                <option value="18"> 18 </option>
+                <option value="19"> 19 </option>
+                <!--20-->
+                <option value="20"> 20 </option>
+                <option value="21"> 21 </option>
+                <option value="22"> 22 </option>
+                <option value="23"> 23 </option>
+                <option value="24"> 24 </option>
+                <option value="25"> 25 </option>
+                <option value="26"> 26 </option>
+                <option value="27"> 27 </option>
+                <option value="28"> 28 </option>
+                <option value="29"> 29 </option>
+                <!--30-->
+                <option value="30"> 30 </option>
+                <option value="31"> 31 </option>
+            </select>
+            <!--Mois-->
+            <label for="mois"> </label>
+            <select name="mois" id="mois">
+                <option value=""> mois </option>
+                <option value="Janvier"> Janvier </option>
+                <option value="Février"> Février </option>
+                <option value="Mars"> Mars </option>
+                <option value="Avril"> Avril </option>
+                <option value="Mai"> Mai </option>
+                <option value="Juin"> Juin </option>
+                <option value="Juillet"> Juillet </option>
+                <option value="Aout"> Aout </option>
+                <option value="Septembre"> Septembre </option>
+                <option value="Octobre"> Octobre </option>
+                <option value="Novembre"> Novembre </option>
+                <option value="Décembre"> Décenbre </option>
+            <!--année-->
+            <p>Année:</p>
+            <label for="année"></label>
+            <input type="text" id="annee" name="annee" required maxlength="04">
+        <div>
+            <p>Adresse:</p>
+            <div>
+            <p> Numéro: </p>
+                <!-- Formulaire Numéro-->
+                <label for="Numéro"></label>
+                <input type="text" id="Numéro" name="Numéro" required
+                maxlength="10">
+            <p> Rue:</p>
+            <!--Formulaire Rue-->
+            <label for="Rue"></label>
+            <input type="text" id="Rue" name="Rue" required>
+            </div>
+            <div>
+                <p> Code Postal: </p>
+                    <!-- Formulaire Code Potal-->
+                    <label for="Code Postal"></label>
+                    <input type="text" id="Code Postal" name="Code Postal" required
+                    maxlength="5">
+                <p> Ville:</p>
+                    <!-- Formulaire Ville-->
+                    <label for="Ville"></label>
+                    <input type="text" id="Ville" name="Ville" required>
+            </div>
+            <p>Téléphone:</p>
+            <label for="téléphone"></label>
+            <input type="text" id="téléphone" name="téléphone" required maxlength="10">
+
+            <p>E-mail:</p>
+            <label for="email"></label>
+            <input type="text" id="email" name="email" required>
+
+            <div>
+                <div>
+                    <input type="submit" value="Envoyer">
+                </div>
+                <div>
+                    <input type="reset" value="Réinitialiser le formulaire"
+                     accesskey="r">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
