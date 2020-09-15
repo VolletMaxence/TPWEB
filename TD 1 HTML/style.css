@@ -1,23 +1,51 @@
 div.style1 {
     background-color: lightskyblue;
     height: 20px;
+    width: 1500px;
 
 }
 
 div.style2 {
     background-color: yellow;
     height: 700px;
+    width: 1500px;
+    z-index: 1;
+    position: absolute;
     
 }
 
 div.style3 {
     background-color:rgb(154, 240, 26);
     height: 20px;
+    position: absolute, bottom;
+    width: 1500px;
+    z-index: 2;
     
 }
 
-div.menu {
-    background-color: palevioletred;
-    height: 700px;
-    widht: 50px;
+div.menuhaut {
+    background-color: green;
+    height: 350px;
+    width: 50px;
+    z-index: 1;
+    position: absolute;
+}
+
+div.menubas {
+    background-color: plum;
+    height: 350px;
+    width: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 370px;
+}
+
+div.blocknews {
+    background-color: red;
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    left: 1300px;
+    top: 30px;
+    z-index: 1;
 }
