@@ -1,31 +1,38 @@
 <html>
     <head>
-
     </head>
     <body>
         <form>
-            <p>Civilité:</p>
+            <p>Civilité:
             <!-- 1er formulaire Civilité -->
-            <div>
-                <input type="radio" id="Civilite1"
-                name="Civilite" value = "Mr">
-                <label for="Civilite1">Mr</label>
+                <div>
+                    <input type="radio" id="Civilite1"
+                    name="Civilite" value = "Mr">
+                    <label for="Civilite1">Mr</label>
             <!-- 2e formulaire Civilité -->
-                <input type="radio" id="Civilite2"
-                name="Civilite" value = "Mme ou Mlle">
-                <label for="Civilite2">Mme ou Mlle</label>
-            </div>
-        <p>Nom:</p>
+                    <input type="radio" id="Civilite2"
+                    name="Civilite" value = "Mme ou Mlle">
+                    <label for="Civilite2">Mme ou Mlle</label> 
+                </div> 
+            </p>
+            <p>Nom:
         <!-- Formulaire Nom-->
-            <label for="Nom"></label>
-            <input type="text" id="Nom" name="Nom" required>
-        <!--Formulaire age-->
+                <label for="Nom"></label>
+                <input type="text" id="Nom" name="Nom" required> 
+            </p>
+        <!--Formulaire Prénom--> 
+            <p>Prénom:
+                <label for="prénomom"></label>
+                <input type="text" id="prénom" name="prénom" required> 
+            </p>
+        <!--Formulaire age--> 
         <div>
-            <p>date de naissance:</p>
+            date de naissance:
             <!--Jour-->
             <label for="jour"> </label>
             <select name="jour" id="jour">
                 <option value=""> jour </option>
+                <!--0-->
                 <option value="01"> 01 </option>
                 <option value="02"> 02 </option>
                 <option value="03"> 03 </option>
@@ -77,50 +84,56 @@
                 <option value="Octobre"> Octobre </option>
                 <option value="Novembre"> Novembre </option>
                 <option value="Décembre"> Décenbre </option>
+            </select>
             <!--année-->
-            <p>Année:</p>
-            <label for="année"></label>
-            <input type="text" id="annee" name="annee" required maxlength="04">
-        <div>
-            <p>Adresse:</p>
+            Année:
+                <label for="année"></label>
+                <input type="text" id="annee" name="annee" required maxlength="04"> </p>
             <div>
-            <p> Numéro: </p>
-                <!-- Formulaire Numéro-->
-                <label for="Numéro"></label>
-                <input type="text" id="Numéro" name="Numéro" required
-                maxlength="10">
-            <p> Rue:</p>
-            <!--Formulaire Rue-->
-            <label for="Rue"></label>
-            <input type="text" id="Rue" name="Rue" required>
+            <p>Adresse:
+            <div>
+                <center> Numéro: 
+                    <!-- Formulaire Numéro-->
+                    <label for="Numéro"></label>
+                    <input type="text" id="Numéro" name="Numéro" required
+                    maxlength="10">
+                    Rue:
+                    <!--Formulaire Rue-->
+                    <label for="Rue"></label>
+                    <input type="text" id="Rue" name="Rue" required> 
+                </center>
             </div>
             <div>
-                <p> Code Postal: </p>
-                    <!-- Formulaire Code Potal-->
-                    <label for="Code Postal"></label>
-                    <input type="text" id="Code Postal" name="Code Postal" required
-                    maxlength="5">
-                <p> Ville:</p>
-                    <!-- Formulaire Ville-->
-                    <label for="Ville"></label>
-                    <input type="text" id="Ville" name="Ville" required>
+                <p>
+                    <center> Code Postal:
+                        <!-- Formulaire Code Potal-->
+                        <label for="Code Postal"></label>
+                        <input type="text" id="Code Postal" name="Code Postal" required
+                        maxlength="5">
+                     Ville:
+                        <!-- Formulaire Ville-->
+                        <label for="Ville"></label>
+                        <input type="text" id="Ville" name="Ville" required> 
+                    </center> 
+                </p>
             </div>
-            <p>Téléphone:</p>
-            <label for="téléphone"></label>
-            <input type="text" id="téléphone" name="téléphone" required maxlength="10">
-
-            <p>E-mail:</p>
-            <label for="email"></label>
-            <input type="text" id="email" name="email" required>
-
+            <!--Formulaire Téléphone-->
+            <p>Téléphone:
+                <label for="téléphone"></label>
+                <input type="text" id="téléphone" name="téléphone" required maxlength="10"> </p>
+            <!--Formulaire E-mail-->
+            <p>E-mail:
+                <label for="email"></label>
+                <input type="text" id="email" name="email" required> 
+            </p>
             <div>
-                <div>
-                    <input type="submit" value="Envoyer">
-                </div>
-                <div>
+                <p>
+                    <!--Envoyer-->
+                    <input type="submit" value="Envoyer"> 
+                    <!--Réinitialisation-->
                     <input type="reset" value="Réinitialiser le formulaire"
-                     accesskey="r">
-                </div>
+                    accesskey="r">
+                </p>
             </div>
         </form>
     </body>
