@@ -1,0 +1,28 @@
+div.text {
+    display: inline;
+    color: royalblue;
+    font-size: 20px;
+}
+
+div.text2 {
+    display: inline;
+    color: red;
+    font-size: 30px;
+}
+
+th, td {
+    padding:10px;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    display: inline-table;
+    padding:10px;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+texttable {
+    display: inline;
+}
