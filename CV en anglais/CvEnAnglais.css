@@ -8,14 +8,18 @@ div.Titre {
 div.Texte {
     font-weight: 100;
     font-size: x-large;
-}
-
-div.TexteItalique {
-    font-style: italic;
+    margin-left: 31px;
 }
 
 div.Titre2 {
     text-decoration: underline black;
     font-weight: bold;
     font-size: x-large;
+    margin-left: 9px;
+}
+
+div.infoperso {
+    font-weight: 100;
+    font-size: x-large;
+    margin-left: 3px;
 }
