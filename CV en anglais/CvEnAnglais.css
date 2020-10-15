@@ -28,16 +28,18 @@ div.infoperso {
     margin-left: 3px;
 }
 
-body {
-
+div.bordure_texte {
+    border-top: 2px solid;
+    width: 81%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-div.marge {
-    background-color: green;
-    height: 475px;
-    width: 50px;
-    z-index: 1;
-    position: absolute;
-    top: 0px
-}
+div.bordure_partit {
+    border-top: 6px solid;
+    width: 94%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+} 
