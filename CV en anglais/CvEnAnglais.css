@@ -1,24 +1,9 @@
-div.Titre {
-    font-style: italic;
-    text-decoration: underline black;
-    font-size: 49px;
-    font-weight: bold;
-    background-color: rgb(90, 90, 245);
-    text-align: center;
-}
+/* Texte */
 
 div.Texte {
     font-weight: 100;
     font-size: 26px;
     margin-left: 31px;
-    text-align: center;
-}
-
-div.Titre2 {
-    text-decoration: underline black;
-    font-weight: bold;
-    font-size: 34px;
-    margin-left: 9px;
     text-align: center;
 }
 
@@ -28,17 +13,54 @@ div.infoperso {
     margin-left: 3px;
 }
 
+/* Title */
+
+div.Titre {
+    font-style: italic;
+    text-decoration: underline black;
+    font-size: 49px;
+    font-weight: bold;
+    background-color: rgb(90, 90, 245);
+    text-align: center;
+}
+
+div.Titre2 {
+    text-decoration: underline black;
+    font-weight: bold;
+    font-size: 31px;
+    margin-left: 9px;
+    text-align: center;
+}
+
+div.TitreSkill {
+    text-decoration: underline black;
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: 9px;
+    text-align: center;
+}
+
+/* bordure de délimitation */
+
+div.bordure_partit {
+    border-top: 7px solid;
+    width: 94%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
 div.bordure_texte {
-    border-top: 2px solid;
+    border-top: 3px solid;
     width: 81%;
     color: black;
     margin-left: auto;
     margin-right: auto;
 }
 
-div.bordure_partit {
-    border-top: 6px solid;
-    width: 94%;
+div.bordure_skill {
+    border-top: 2px solid;
+    width: 39%;
     color: black;
     margin-left: auto;
     margin-right: auto;
